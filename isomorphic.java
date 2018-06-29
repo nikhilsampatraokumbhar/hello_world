@@ -6,7 +6,7 @@ class isomorphic
         Scanner sc=new Scanner(System.in);
         String str1=sc.next();
         String str2=sc.next();
-        if(str1.length()<=100000&&str2.length<=100000)
+        if(str1.length()<=100000&&str2.length()<=100000)
         {boolean r=isomor(str1,str2);
         System.out.print(r);}
     }
