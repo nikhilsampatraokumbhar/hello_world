@@ -6,8 +6,9 @@ class isomorphic
         Scanner sc=new Scanner(System.in);
         String str1=sc.next();
         String str2=sc.next();
-        boolean r=isomor(str1,str2);
-        System.out.print(r);
+        if(str1.length()<=100000&&str2.length<=100000)
+        {boolean r=isomor(str1,str2);
+        System.out.print(r);}
     }
     public static boolean isomor(String s1,String s2)
     {
